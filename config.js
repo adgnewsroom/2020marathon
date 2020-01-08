@@ -20,9 +20,9 @@ var followPitch = 0;
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
     // style: 'mapbox://styles/mapbox/light-v10',
-    style: 'mapbox://styles/mapbox/satellite-v8',
+    style: 'mapbox://styles/yutaochen/ck55naf3404lv1cpbvk4y4wyx',
     // style: 'mapbox://styles/mapbox/outdoors-v10',
-    accessToken: 'pk.eyJ1IjoieXV0YW9jaGVuIiwiYSI6ImNrNTRlYW54bTBpaHMzZW1nczNseTBzNWgifQ.3fYW2HLLCNPk-22MY4snwg',
+    accessToken: 'pk.eyJ1IjoieXV0YW9jaGVuIiwiYSI6ImNpdXlsOGgxZjA1NmEyb3BkZnVseTlvOHEifQ.Q2eYiNqKAgGO8etQgC-Sgw',
     showMarkers: false,
     theme: 'light',
     alignment: 'left',
