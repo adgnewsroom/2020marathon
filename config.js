@@ -28,14 +28,14 @@ var config = {
     alignment: 'left',
     title: 'The Title Text of this Story',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    byline: 'Yutao Chen',
     footer: 'Source: source citations, etc.',
     chapters: [
         {
             id: 'slide-0',
-            title: '2020 Little Rock Marathon',
-            image: 'https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG',
-            description: 'Two people with Arkansas roots are the male and female winners of the 2019 Little Rock Marathon. Jeremy Provence, 28, crossed the finish line with a time of 2:42:24. Though Provence currently lives in Florence, Ala., where he is head coach of the cross country team at the University of North Alabama, he grew up in Mountainburg in Northwest Arkansas.',
+            // title: '2020 Little Rock Marathon',
+            // image: 'https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG',
+            description: '<h1>2020 Little Rock Marathon</h1> <img src="https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG"><br></br>Two people with Arkansas roots are the male and female winners of the 2019 Little Rock Marathon. Jeremy Provence, 28, crossed the finish line with a time of 2:42:24. <br></br>Though Provence currently lives in Florence, Ala., where he is head coach of the cross country team at the University of North Alabama, he grew up in Mountainburg in Northwest Arkansas.',
             location: {
             },
             onChapterEnter: [],
