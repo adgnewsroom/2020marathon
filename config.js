@@ -3,7 +3,7 @@
 var driveSlides = 7;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 250;
+var driveSmoothness = 200;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -12,15 +12,15 @@ var driveTime = driveSlides*driveSmoothness;
 var followPoint = true;
 
 // ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 15;
-var followBearing = 35;
+var followZoomLevel = 14;
+var followBearing = 10;
 var followPitch = 0;
 
 // to add 'driving' slides just make sure to add 'drive to beginning of slide id'
 // you also need to add a running total to the end of each 'drive-slide', (ex. drive-slide-0, drive-slide-1, drive-slide-2, etc.)
 var config = {
-    style: 'mapbox://styles/mapbox/light-v10',
-    // style: 'mapbox://styles/mapbox/satellite-v8',
+    // style: 'mapbox://styles/mapbox/light-v10',
+    style: 'mapbox://styles/mapbox/satellite-v8',
     // style: 'mapbox://styles/mapbox/outdoors-v10',
     accessToken: 'pk.eyJ1IjoieXV0YW9jaGVuIiwiYSI6ImNrNTRlYW54bTBpaHMzZW1nczNseTBzNWgifQ.3fYW2HLLCNPk-22MY4snwg',
     showMarkers: false,
