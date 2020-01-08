@@ -44,7 +44,7 @@ var config = {
         {
             id: 'drive-slide-0',
             title: 'Second Title',
-            image: './path/to/image/source.png',
+            image: 'https://cdn-tts.pressreader.com/mediaservice/38855_1/resized_260126-lr_marathon-036_58-25950.JPG',
             description: 'Copy these sections to add to your story.',
             location: {
                 // location information is from the drive route
