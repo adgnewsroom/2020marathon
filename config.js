@@ -1,9 +1,9 @@
-// Number of slides that will drive (more = smoother)
+ // Number of slides that will drive (more = smoother)
 // If this doesn't match the number of slides named 'drive-slide' in config below you will not complete the full journey
-var driveSlides = 7;
+var driveSlides = 14;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 200;
+var driveSmoothness = 500;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -63,7 +63,69 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            // image: './path/to/image/source.png',
+            description: '<video style="width: 31vw; height: auto" autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/1.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'drive-slide-1',
+            title: 'Second Title',
+            image: './path/to/image/source.png',
+            description: 'Copy these sections to add to your story.',
+            location: {},
+            onChapterEnter: [],
+            onChapterExit: []
+        },
         {
             id: 'drive-slide-1',
             title: 'Second Title',
