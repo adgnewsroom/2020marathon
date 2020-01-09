@@ -56,7 +56,7 @@ var config = {
             id: 'drive-slide-0',
             title: 'Broadway Bridge',
             // image: 'https://cdn-tts.pressreader.com/mediaservice/38855_1/resized_260126-lr_marathon-036_58-25950.JPG',
-            description: '<video style="width: 29vw; height: auto" autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/4.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
+            description: '<video style="width: 31vw; height: auto" autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/4.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
             location: {
                 // location information is from the drive route
             },
