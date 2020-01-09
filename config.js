@@ -65,7 +65,7 @@ var config = {
         },
         {
             id: 'drive-slide-1',
-            title: 'Second Title',
+            title: 'William J. Clinton Presidential Library',
             // image: './path/to/image/source.png',
             description: '<video style="width: 31vw; height: auto" autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/1.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
             location: {},
@@ -74,8 +74,8 @@ var config = {
         },
         {
             id: 'drive-slide-2',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
+            title: 'Bill and Hillary Clinton National Airport',
+            image: 'https://media.arkansasonline.com/img/photos/2019/03/03/resized_276302-tm_0303marathon0527_1-25950_t1000.JPG?cc6fa094ad523b984325c7879220d3883a443e7f',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [],
@@ -83,7 +83,7 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'Second Title',
+            title: 'McArthur Park Historic District',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
@@ -92,8 +92,8 @@ var config = {
         },
         {
             id: 'drive-slide-4',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
+            title: 'Little Rock Central High School',
+            image: 'https://cdn-tts.pressreader.com/mediaservice/38850_1/resized_276302-tm_0303marathon1536_22-25950.JPG',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [],
@@ -101,8 +101,8 @@ var config = {
         },
         {
             id: 'drive-slide-5',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
+            title: 'Arkansas State Capitol',
+            image: 'https://media.arkansasonline.com/img/photos/2019/03/03/resized_276302-tm_0303marathon2_86-25950_t1000.JPG?cc6fa094ad523b984325c7879220d3883a443e7f',
             description: 'Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [],
@@ -110,16 +110,16 @@ var config = {
         },
         {
             id: 'drive-slide-6',
-            title: 'Second Title',
-            image: './path/to/image/source.png',
-            description: 'Copy these sections to add to your story.',
+            title: 'Allsopp Park',
+            // image: './path/to/image/source.png',
+            description: '<video style="width: 31vw; height: auto" autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/3.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
         },
         {
             id: 'drive-slide-7',
-            title: 'Second Title',
+            title: 'Rebsamen Park',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
@@ -128,7 +128,7 @@ var config = {
         },
         {
             id: 'drive-slide-8',
-            title: 'Second Title',
+            title: 'Arkansas Arts Center',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
@@ -137,7 +137,7 @@ var config = {
         },
         {
             id: 'drive-slide-9',
-            title: 'Second Title',
+            title: 'Finish',
             image: './path/to/image/source.png',
             description: 'Copy these sections to add to your story.',
             location: {},
