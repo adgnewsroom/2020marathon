@@ -63,6 +63,7 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
+
         {
             id: 'drive-slide-1',
             title: 'Second Title',
