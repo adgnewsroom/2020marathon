@@ -26,7 +26,7 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'left',
-    title: 'The Title Text of this Story',
+    title: '2020 Little Rock Marathon Preview',
     subtitle: 'A descriptive and interesting subtitle to draw in the reader',
     byline: 'Yutao Chen',
     footer: 'Source: source citations, etc.',
@@ -35,7 +35,7 @@ var config = {
             id: 'slide-0',
             // title: '2020 Little Rock Marathon',
             // image: 'https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG',
-            description: '<h1>2020 Little Rock Marathon</h1> <img src="https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG"><br></br>Two people with Arkansas roots are the male and female winners of the 2019 Little Rock Marathon. Jeremy Provence, 28, crossed the finish line with a time of 2:42:24. <br></br>Though Provence currently lives in Florence, Ala., where he is head coach of the cross country team at the University of North Alabama, he grew up in Mountainburg in Northwest Arkansas.',
+            description: '<h1>2020 Little Rock Marathon Preview</h1> <img src="https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG"><br></br>Two people with Arkansas roots are the male and female winners of the 2019 Little Rock Marathon. Jeremy Provence, 28, crossed the finish line with a time of 2:42:24. <br></br>Though Provence currently lives in Florence, Ala., where he is head coach of the cross country team at the University of North Alabama, he grew up in Mountainburg in Northwest Arkansas.',
             location: {
             },
             onChapterEnter: [],
@@ -54,9 +54,9 @@ var config = {
 
         {
             id: 'drive-slide-0',
-            title: 'Second Title',
+            title: 'Broadway Bridge',
             // image: 'https://cdn-tts.pressreader.com/mediaservice/38855_1/resized_260126-lr_marathon-036_58-25950.JPG',
-            description: '<video style="width: 29vw; height: auto" loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/4.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
+            description: '<video style="width: 29vw; height: auto" autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/4.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
             location: {
                 // location information is from the drive route
             },
