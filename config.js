@@ -42,10 +42,21 @@ var config = {
             onChapterExit: []
         },
         {
+            id: 'slide-1',
+            title: 'LaHarpe Boulevard',
+            image: 'https://media.arkansasonline.com/img/photos/2019/03/03/resized_260126-lr_marathon-073_91-25950_t1000.JPG?cc6fa094ad523b984325c7879220d3883a443e7f',
+            description: 'The race will start at LaHarpe Boulevard behind the Statehouse Convention Center, just east of the Marriott Hotel overhang.',
+            location: {
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+
+        {
             id: 'drive-slide-0',
             title: 'Second Title',
-            image: 'https://cdn-tts.pressreader.com/mediaservice/38855_1/resized_260126-lr_marathon-036_58-25950.JPG',
-            description: 'Copy these sections to add to your story.',
+            // image: 'https://cdn-tts.pressreader.com/mediaservice/38855_1/resized_260126-lr_marathon-036_58-25950.JPG',
+            description: '<video style="width: 29vw; height: auto" loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/4.mp4" type="video/mp4"></video>Copy these sections to add to your story.',
             location: {
                 // location information is from the drive route
             },
