@@ -73,7 +73,7 @@
             top: 10px;
             right: 10px;
             box-sizing: content-box;
-            background: rgba(204, 204, 205, 0.8);
+            background: rgba(247, 247, 247, 0.8);
             overflow: auto;
             border-radius: 5px;
           }
@@ -492,7 +492,9 @@ map.on("load", function() {
 
     map.addSource('lineSource', {
         "type": "geojson",
-        "data": geojsonPoint
+        "data": geojsonPoint,
+        "lineMetrics": true,
+
     });
 
     map.addSource('pointSource', {
@@ -505,9 +507,11 @@ map.on("load", function() {
       "type": "line",
       "source": "lineSource",
       'paint': {
-            'line-opacity': 0.7,
-            'line-color': 'Aqua',
-            'line-width': 4.0
+            'line-opacity': 0.6,
+            // 'line-color': 'Red',
+            'line-width': 6.0,
+            'line-gradient': ['interpolate', ['linear'], ['line-progress'], 0, 'White', 1.0, 'Red'],
+            // 'line-stroke-width': 1
        },
        'layout': {
            'visibility': 'none'
@@ -521,7 +525,7 @@ map.on("load", function() {
       'paint': {
             'circle-radius': 6,
             'circle-opacity': 0.7,
-            'circle-color': 'Aqua'
+            'circle-color': 'Red'
       },
       'layout': {
            // 'visibility': 'none'
