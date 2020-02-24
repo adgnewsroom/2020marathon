@@ -7,10 +7,13 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
     <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     <style>
         body {
             margin:0;
@@ -23,7 +26,8 @@
 
         p{
           font-family: 'Roboto', sans-serif;
-          color: black
+          font-size: 1.1em;
+          color: black;
         }
 
         h1{
@@ -58,14 +62,12 @@
             text-align: center;
             display:none;
         }
+
         #footer {
-            width: 100%;
-            min-height: 5vh;
-            padding-top: 2vh;
-            padding-bottom: 2vh;
-            text-align: center;
-            line-height: 25px;
-            font-size: 15px;
+            background-color: #383838;
+            padding-bottom: 1vh;
+            width:100vw;
+            height:auto;
         }
 
         .map-overlay {
@@ -76,6 +78,8 @@
             background: rgba(247, 247, 247, 0.8);
             overflow: auto;
             border-radius: 5px;
+            padding-bottom: 5px;
+            width:10.5vw;
           }
 
           .map-overlay p{
@@ -117,10 +121,13 @@
             width: 33vw;
             margin-left: 62vw;
         }
+
         .light {
             color: #444;
             background-color: #E6E6E6;
+            width: 30vw;
         }
+
         .dark {
             color: #fafafa;
             background-color: #444;
@@ -145,7 +152,7 @@
         }
 
         .step video {
-            width: 100%;
+            width: 28vw;
         }
 
         svg {
@@ -174,18 +181,46 @@
           border-radius: 5px;
         }
 
+
+
+        @media (max-width: 1850px) {
+
+        .map-overlay {
+            width:17vw;
+          }
+
+          .map-overlay p{
+              font-size: 0.9em;
+
+            }
+        }
+
         @media (max-width: 750px) {
             #features {
                 width: 90vw;
                 margin: 0 auto;
             }
         }
+
+
+
+        @media (max-width: 576px) {
+          .map-overlay {
+            display:none;
+          }
+      }
+
+
+
+
+
         </style>
 </head>
 <body>
 
 <div id="map"></div>
-<div class='map-overlay'><p>
+<div class='map-overlay'>
+  <p>
 <strong>Friday, Feb. 28</strong><br>
 Health & Fitness Expo: 10 a.m. - 8 p.m.<br></br>
 <strong1>Saturday, Feb. 29</strong1><br>
@@ -260,9 +295,8 @@ Marathon & Half Marathon: 8 a.m</p>
 <text transform="matrix(1 0 0 1 37.5894 86.6094)" class="st4 st5">Parking</text>
 <text transform="matrix(1 0 0 1 15.0385 87.7088)" class="st6 st1 st7">P</text>
 </svg>
-
-
 </div>
+
 <div id="story"></div>
 <script src="./config.js"></script>
 <script src="./js/drive.js"></script>
