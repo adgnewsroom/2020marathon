@@ -38,7 +38,7 @@ var config = {
             id: 'slide-0',
             // title: '2020 Little Rock Marathon',
             // image: 'https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG',
-            description: '<h1>2020 Little Rock Marathon Preview</h1><p>By Yutao Chen and Pete Perkins</p> <img src="https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG"><br></br>Thousands of runners are set to compete in the Little Rock Marathon, which begins in the city&rsquo;s downtown, crosses into North Little Rock and then back into the capital city. <br></br>Runners will make their way through a variety of neighborhoods and city landmarks, including Central High School and the state Capitol. <br></br><span class="badge badge-warning" style="font-size: 0.9em">Scroll down</span> for an interactive look at this year&rsquo;s route.',
+            description: '<h1>2020 Little Rock Marathon Preview</h1><p>By Yutao Chen and Pete Perkins</p> <img src="lead.JPG"><br></br>Thousands of runners are set to compete in the Little Rock Marathon, which begins in the city&rsquo;s downtown, crosses into North Little Rock and then back into the capital city. <br></br>Runners will make their way through a variety of neighborhoods and city landmarks, including Central High School and the state Capitol. <br></br><span class="badge badge-warning" style="font-size: 0.9em">Scroll down</span> for an interactive look at this year&rsquo;s route.',
             location: {
             },
             onChapterEnter: [],
