@@ -27,7 +27,7 @@ var config = {
     theme: 'light',
     alignment: 'left',
     title: '2020 Little Rock Marathon Preview',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    subtitle: 'Scroll for an interactive look at this year&rsquo;s route.',
     byline: 'Yutao Chen',
     footer: '<footer class="page-footer font-small unique-color-dark" style="background-color: #383838">' + '<div class="container text-center text-md-left mt-5">' + '<div class="row mt-3">' + '<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">' + '<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">' + '<a href="http://www.arkansasonline.com" target="_blank"><img alt="Arkansas Democrat-Gazette" src="https://s3.amazonaws.com/new_videos/year_in_pictures/logo.png" class="center" style="width: 100%"></a>' + '<div class="col-md-6 col-lg-9 text-center text-md-right">' + '<a class="fb-ic">' + '<a href="https://www.facebook.com/arkansasonline/" target="_blank"><img src="facebook.png" style="width:20px"></a>' + '<a class="tw-ic"><a href="https://twitter.com/arkansasonline" target="_blank">' +
     '<img src="twitter.png" style="width: 20px;"></a>' + '<a class="ins-ic"><a href="https://instagram.com/arkansasonline" target="_blank">' + '<img src="instagram.png" style="width: 20px;"></a>' + '<a class="li-ic"><a href="https://www.linkedin.com/company/arkansas-democrat-gazette" target="_blank">' +
