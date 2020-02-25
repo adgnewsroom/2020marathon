@@ -77,7 +77,7 @@ var config = {
         },
         {
             id: 'drive-slide-2',
-            title: 'Bill and Hillary Clinton National Airport',
+            title: 'Dassault Falcon / Clinton National Airport',
             image: 'https://media.arkansasonline.com/img/photos/2019/03/03/resized_276302-tm_0303marathon0527_1-25950_t1000.JPG?cc6fa094ad523b984325c7879220d3883a443e7f',
             description: '<br>This is among the flattest parts of the course, but on a windy day, it can be as difficult to maintain pace by the airport as it is through the hills south of downtown and up into Park Hill. Whereas people line the streets in rows near the start and finish, the crowd is slight here.',
             location: {},
@@ -115,7 +115,7 @@ var config = {
             id: 'drive-slide-6',
             title: 'Allsopp Park',
             // image: './path/to/image/source.png',
-            description: '<video autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/3.mp4" type="video/mp4"></video>The downhill of Allsop Park Road marks the beginning of the end. It comes as a fast but relieving break after the long uphill grind into the Park Hill neighborhood. <br></br>However, traction can become an issue. This section that&rsquo;s 17 miles in turns potentially treacherous on rainy days.',
+            description: '<video autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/3.mp4" type="video/mp4"></video>The downhill of Allsop Park Road marks the beginning of the end. It comes as a fast but relieving break after the long uphill grind into the Park Hill neighborhood. <br></br>However, traction can become an issue. This section — 17 miles in — turns potentially treacherous on rainy days.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
