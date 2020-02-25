@@ -124,7 +124,7 @@ var config = {
             id: 'drive-slide-7',
             title: 'Rebsamen Park',
             image: 'rebs.JPG',
-            description: 'In a search for irony, look no further than the Little Rock Marathon&rsquo;s out-and-back section into and out of Rebsamen Park. <br></br>It is the longest flat section of a race sometimes dreaded for its hilliness, but its visual tedium after 18 miles of landmarks and vibrant neighborhoods make it the least-favorite section for many entrants.',
+            description: '<br>In a search for irony, look no further than the Little Rock Marathon&rsquo;s out-and-back section into and out of Rebsamen Park. <br></br>It is the longest flat section of a race sometimes dreaded for its hilliness, but its visual tedium after 18 miles of landmarks and vibrant neighborhoods make it the least-favorite section for many entrants.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
@@ -132,8 +132,8 @@ var config = {
         {
             id: 'drive-slide-8',
             title: 'Lincoln Avenue Viaduct',
-            image: 'bridge.jpg',
-            description: 'The finish line is less than 1 mile away from this distinctive bridge, long an earmark to the northwestern edge of downtown. <br></br>It is the site of the course&rsquo;s final aid station, renowned for its joyous, occasionally reckless rowdiness. Much is spilled here, by runners and volunteers alike.',
+            image: 'bridge.JPG',
+            description: '<br>The finish line is less than 1 mile away from this distinctive bridge, long an earmark to the northwestern edge of downtown. <br></br>It is the site of the course&rsquo;s final aid station, renowned for its joyous, occasionally reckless rowdiness. Much is spilled here, by runners and volunteers alike.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
