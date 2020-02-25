@@ -38,7 +38,7 @@ var config = {
             id: 'slide-0',
             // title: '2020 Little Rock Marathon',
             // image: 'https://cdn-tts.pressreader.com/mediaservice/38853_1/resized_276302-tm_0303marathon4430_37-25950.JPG',
-            description: '<h1>2020 Little Rock Marathon Preview</h1><p>By Yutao Chen and Pete Perkins</p> <img src="lead.JPG"><br></br>Thousands of runners are set to compete in the Little Rock Marathon, which begins in the city&rsquo;s downtown, crosses into North Little Rock and then back into the capital city. <br></br>Runners will make their way through a variety of neighborhoods and city landmarks, including Central High School and the state Capitol. <br></br><span class="badge badge-warning" style="font-size: 0.9em">Scroll down</span> for an interactive look at this year&rsquo;s route.',
+            description: '<h1>2020 Little Rock Marathon Preview</h1><p>By Yutao Chen and Pete Perkins</p> <img src="https://s3.amazonaws.com/new_videos/2020marathon/lead.jpg"><br></br>Thousands of runners are set to compete in the Little Rock Marathon, which begins in the city&rsquo;s downtown, crosses into North Little Rock and then back into the capital city. <br></br>Runners will make their way through a variety of neighborhoods and city landmarks, including Central High School and the state Capitol. <br></br><span class="badge badge-warning" style="font-size: 0.9em">Scroll down</span> for an interactive look at this year&rsquo;s route.',
             location: {
             },
             onChapterEnter: [],
@@ -47,7 +47,7 @@ var config = {
         {
             id: 'slide-1',
             title: 'LaHarpe Boulevard',
-            image: 'https://media.arkansasonline.com/img/photos/2019/03/03/resized_260126-lr_marathon-073_91-25950_t1000.JPG?cc6fa094ad523b984325c7879220d3883a443e7f',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/resized_260126-lr_marathon-073_91-25950_t1000.jpeg',
             description: '<br>Each of the approximately 2,000 Little Rock Marathon entrants — each runner, walker and roller — will wait on LaHarpe Boulevard before the start. <br></br>Often, hundreds of hours of training go in to tackling the course of 26 miles, 385 yards.',
             location: {
             },
@@ -58,7 +58,7 @@ var config = {
         {
             id: 'drive-slide-0',
             title: 'Broadway Bridge',
-            image: 'broadway.JPG',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/broadway.jpg',
             description: '<br>The climb to the apex of the Broadway Bridge is the first of many inclines, but at the start of the marathon’s second mile, the required effort is inconsequential. <br></br>At this point, marathons are easy. Pleasure still rules.',
             location: {
                 // location information is from the drive route
@@ -78,7 +78,7 @@ var config = {
         {
             id: 'drive-slide-2',
             title: 'Dassault Falcon / Clinton National Airport',
-            image: 'https://media.arkansasonline.com/img/photos/2019/03/03/resized_276302-tm_0303marathon0527_1-25950_t1000.JPG?cc6fa094ad523b984325c7879220d3883a443e7f',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/resized_276302-tm_0303marathon0527_1-25950_t1000.jpeg',
             description: '<br>This is among the flattest parts of the course, but on a windy day, it can be as difficult to maintain pace by the airport as it is through the hills south of downtown and up into Park Hill. Whereas people line the streets in rows near the start and finish, the crowd is slight here.',
             location: {},
             onChapterEnter: [],
@@ -86,9 +86,9 @@ var config = {
         },
         {
             id: 'drive-slide-3',
-            title: 'McArthur Park Historic District',
-            image: 'park1.JPG',
-            description: '<br>Nine miles in, the crowd size increases near McArthur Park, just when inspiration and encouragement from — in many cases — total strangers become a significant benefit to all in the race.',
+            title: 'MacArthur Park Historic District',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/park1.jpg',
+            description: '<br>Nine miles in, the crowd size increases near MacArthur Park, just when inspiration and encouragement from — in many cases — total strangers become a significant benefit to all in the race.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
@@ -96,8 +96,8 @@ var config = {
         {
             id: 'drive-slide-4',
             title: 'Little Rock Central High School',
-            image: 'central.JPG',
-            description: '<br>Shortly after the start of the 13th mile, racers pass Central High, forever a significant national landmark for its role in the civil-rights movement. <br></br>Entrants are in their fourth of seven consecutive miles of rolling hills, and a turn to the east from offers the relief of a downhill stretch on Daisy Gatson Bates Drive.',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/central.jpg',
+            description: '<br>Shortly after the start of the 12th mile, racers pass Central High, forever a significant national landmark for its role in the civil-rights movement. <br></br>Entrants are in their fourth of seven consecutive miles of rolling hills, and a turn to the east from offers the relief of a downhill stretch on Daisy Gatson Bates Drive.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
@@ -105,7 +105,7 @@ var config = {
         {
             id: 'drive-slide-5',
             title: 'Arkansas State Capitol',
-            image: 'capitol.JPG',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/capitol.jpg',
             description: '<br>About a mile past halfway, the field passes the Capitol building to its left. It stands as a treasured landmark to many Arkansans and Little Rock Marathon entrants. <br></br>Approximately two city blocks in length, it is a flat stretch that proceeds 4 miles of steep hills.',
             location: {},
             onChapterEnter: [],
@@ -115,7 +115,7 @@ var config = {
             id: 'drive-slide-6',
             title: 'Allsopp Park',
             // image: './path/to/image/source.png',
-            description: '<video autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/3.mp4" type="video/mp4"></video>The downhill of Allsop Park Road marks the beginning of the end. It comes as a fast but relieving break after the long uphill grind into the Park Hill neighborhood. <br></br>However, traction can become an issue. This section — 17 miles in — turns potentially treacherous on rainy days.',
+            description: '<video autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/3.mp4" type="video/mp4"></video>The downhill of Allsopp Park Road marks the beginning of the end. It comes as a fast but relieving break after the long uphill grind into the Park Hill neighborhood. <br></br>However, traction can become an issue. This section — 17 miles in — turns potentially treacherous on rainy days.',
             location: {},
             onChapterEnter: [],
             onChapterExit: []
@@ -123,7 +123,7 @@ var config = {
         {
             id: 'drive-slide-7',
             title: 'Rebsamen Park',
-            image: 'rebs.JPG',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/rebs.jpg',
             description: '<br>In a search for irony, look no further than the Little Rock Marathon&rsquo;s out-and-back section into and out of Rebsamen Park. <br></br>It is the longest flat section of a race sometimes dreaded for its hilliness, but its visual tedium after 18 miles of landmarks and vibrant neighborhoods make it the least-favorite section for many entrants.',
             location: {},
             onChapterEnter: [],
@@ -132,7 +132,7 @@ var config = {
         {
             id: 'drive-slide-8',
             title: 'Lincoln Avenue Viaduct',
-            image: 'bridge.JPG',
+            image: 'https://s3.amazonaws.com/new_videos/2020marathon/bridge.jpg',
             description: '<br>The finish line is less than 1 mile away from this distinctive bridge, long an earmark to the northwestern edge of downtown. <br></br>It is the site of the course&rsquo;s final aid station, renowned for its joyous, occasionally reckless rowdiness. Much is spilled here, by runners and volunteers alike.',
             location: {},
             onChapterEnter: [],
@@ -142,7 +142,7 @@ var config = {
             id: 'drive-slide-9',
             title: 'Finish',
             // image: './path/to/image/source.png',
-            description: '<video autoplay loop muted><source src="finish.mp4" type="video/mp4"></video>' + '<br>Joy and relief intermingle here for most who have completed a footrace or wheelchair race of 26 miles, 385 yards. <br></br>A few time-conscious racers might experience varying degrees of disappointment, but even for those who have fallen short of their goals or expectations, it is hard to not find pleasure in the cumulative happiness and festivity of a marathon finish. ',
+            description: '<video autoplay loop muted><source src="https://s3.amazonaws.com/new_videos/2020marathon/finish.mp4" type="video/mp4"></video>' + '<br>Joy and relief intermingle here for most who have completed a footrace or wheelchair race of 26 miles, 385 yards. <br></br>A few time-conscious racers might experience varying degrees of disappointment, but even for those who have fallen short of their goals or expectations, it is hard to not find pleasure in the cumulative happiness and festivity of a marathon finish. ',
             location: {
               },
             onChapterEnter: [],
